@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ACC7FD"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:fontFamily="serif-monospace"
-        android:text="TextView"
-        android:textSize="34sp" />
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="50px"
+        android:text="Rico - Tac - Toes!"
+        android:textColor="#6D67BD"
+        android:textSize="50dp"
+        android:textStyle="italic" />
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/PlayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300px"
+        android:backgroundTint="#60432D"
+        android:text="Dale"
+        android:textSize="30dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
