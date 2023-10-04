@@ -11,17 +11,19 @@ public class MainActivity extends AppCompatActivity {
 
     TextView titleText;
     Button playButton;
+    Button instructionsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        instructionsButton = (Button) findViewById(R.id.InstructionsButton);
         playButton = (Button) findViewById(R.id.PlayButton);
         titleText = (TextView) findViewById(R.id.title_text);
         Typeface myCustomFont = Typeface.createFromAsset(getAssets(), "fonts/Monday Donuts.ttf");
         titleText.setTypeface(myCustomFont);
         playButton.setTypeface(myCustomFont);
-
+        instructionsButton.setTypeface(myCustomFont);
     }
 }

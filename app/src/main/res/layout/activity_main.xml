@@ -12,20 +12,36 @@
         android:id="@+id/title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="120px"
+        android:layout_marginLeft="60px"
         android:layout_marginTop="50px"
         android:text="Rico - Tac - Toes!"
         android:textColor="#6D67BD"
         android:textSize="50dp"
         android:textStyle="italic" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100px"
+        android:layout_height="230dp"
+        tools:srcCompat="@drawable/tictactoewallpaper" />
+
     <Button
         android:id="@+id/PlayButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300px"
-        android:backgroundTint="#60432D"
-        android:text="Dale"
+        android:layout_marginTop="150px"
+        android:backgroundTint="#555F82"
+        android:text="Play"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/InstructionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:backgroundTint="#555F82"
+        android:text="Instructions"
         android:textSize="30dp" />
 
 </LinearLayout>
