@@ -32,19 +32,19 @@
             <ImageView
                 android:id="@+id/r0c0"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:src="@tools:sample/avatars" />
 
             <ImageView
                 android:id="@+id/r0c1"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:src="@tools:sample/avatars" />
 
             <ImageView
                 android:id="@+id/r0c2"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:src="@tools:sample/avatars" />
 
 
@@ -56,16 +56,45 @@
             android:layout_height="match_parent" >
 
             <ImageView
-                android:id="@+id/r0c13"
+                android:id="@+id/r1c0"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
+                android:src="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/r1c1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/r1c2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:src="@tools:sample/avatars" />
         </TableRow>
 
         <TableRow
             android:id="@+id/row2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/r2c0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@tools:sample/avatars" />
+            <ImageView
+                android:id="@+id/r2c1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@tools:sample/avatars" />
+            <ImageView
+                android:id="@+id/r2c2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@tools:sample/avatars" />
+        </TableRow>
 
     </TableLayout>
 
