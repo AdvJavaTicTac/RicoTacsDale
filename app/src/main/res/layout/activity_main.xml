@@ -14,17 +14,18 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="60px"
         android:layout_marginTop="50px"
-        android:text="Rico - Tac - Toes!"
+        android:text="Rico - Tac - Dale!"
         android:textColor="#6D67BD"
         android:textSize="50dp"
         android:textStyle="italic" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:id="@+id/TicTacToePicture"
+        android:layout_gravity="center"
         android:layout_marginTop="100px"
-        android:layout_height="230dp"
-        tools:srcCompat="@drawable/tictactoewallpaper" />
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:srcCompat="@drawable/tictactoepicture" />
 
     <Button
         android:id="@+id/PlayButton"
@@ -42,6 +43,13 @@
         android:layout_marginTop="50px"
         android:backgroundTint="#555F82"
         android:text="Instructions"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:onClick="toInstructions" />
 
+    <ImageView
+        android:id="@+id/ControllerPicture"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        tools:srcCompat="@drawable/baseline_videogame_asset_24" />
 </LinearLayout>
