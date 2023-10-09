@@ -2,33 +2,31 @@ package com.example.ricotacsdale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class PlayScreen extends AppCompatActivity implements View.OnClickListener{
 
-    private ImageView r0c0,r0c1,r0c2,r1c0,r1c1,r1c2,r2c0,r2c1,r2c2;
-    //Needed to make more ImageView objects because needed a "constant variable"
+    Button r0c0 =findViewById(R.id.r0c0);
+    Button r0c1 =findViewById(R.id.r0c1);
+    Button r0c2 =findViewById(R.id.r0c2);
+
+    Button r1c0 =findViewById(R.id.r1c0);
+    Button r1c1 =findViewById(R.id.r1c1);
+    Button r1c2 =findViewById(R.id.r1c2);
+
+    Button r2c0 =findViewById(R.id.r2c0);
+    Button r2c1 =findViewById(R.id.r2c1);
+    Button r2c2 =findViewById(R.id.r2c2);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_screen);
 
-        //may or may not need to remove the code under
-
-        r0c0 =findViewById(R.id.r0c0);
-        r0c1 =findViewById(R.id.r0c1);
-        r0c2 =findViewById(R.id.r0c2);
-
-        r1c0 =findViewById(R.id.r1c0);
-        r1c1 =findViewById(R.id.r1c1);
-        r1c2 =findViewById(R.id.r1c2);
-
-        r2c0 =findViewById(R.id.r2c0);
-        r2c1 =findViewById(R.id.r2c1);
-        r2c2 =findViewById(R.id.r2c2);
 
 
         /* Brainstorm of how to change image of tiles

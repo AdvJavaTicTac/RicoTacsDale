@@ -27,27 +27,27 @@
             android:layout_width="match_parent">
 
 
-            <ImageView
+            <Button
                 android:id="@+id/r0c0"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/empty"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:text="Empty"/>
 
-            <ImageView
+            <Button
                 android:id="@+id/r0c1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/empty"
-                android:padding="5dp"/>
+                android:padding="5dp"
+                android:text="Empty"/>
 
 
-            <ImageView
+            <Button
                 android:id="@+id/r0c2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
+                android:text="Empty"/>
 
 
         </TableRow>
@@ -57,26 +57,26 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <ImageView
+            <Button
                 android:id="@+id/r1c0"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
+                android:text="Empty" />
 
-            <ImageView
+            <Button
                 android:id="@+id/r1c1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
+                android:text="Empty" />
 
-            <ImageView
+            <Button
                 android:id="@+id/r1c2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
+                android:text="Empty"/>
         </TableRow>
 
         <TableRow
@@ -84,24 +84,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <ImageView
+            <Button
                 android:id="@+id/r2c0"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
-            <ImageView
+                android:text="Empty" />
+            <Button
                 android:id="@+id/r2c1"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
-            <ImageView
+                android:text="Empty" />
+            <Button
                 android:id="@+id/r2c2"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
-                android:src="@drawable/empty" />
+                android:text="Empty" />
         </TableRow>
 
     </TableLayout>
