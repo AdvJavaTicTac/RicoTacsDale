@@ -68,6 +68,7 @@
                 android:id="@+id/tile5"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:onClick="changeSymbol"
                 android:padding="5dp"
                 android:text="Empty" />
 
