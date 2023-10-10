@@ -12,15 +12,7 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
     String turn = "X";
     //Start off with X outside onCreate because I *THINK* it will mess something up
 
-    Button tile1 = findViewById(R.id.tile1);
-    Button tile2 = findViewById(R.id.tile2);
-    Button tile3 = findViewById(R.id.tile3);
-    Button tile4 = findViewById(R.id.tile4);
-    Button tile5 = findViewById(R.id.tile5);
-    Button tile6 = findViewById(R.id.tile6);
-    Button tile7 = findViewById(R.id.tile7);
-    Button tile8 = findViewById(R.id.tile8);
-    Button tile9 = findViewById(R.id.tile9);
+    Button tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, tile9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +25,15 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
                 4   5   6
                 7   8   9
          */
+        tile1 = findViewById(R.id.tile1);
+        tile2 = findViewById(R.id.tile2);
+        tile3 = findViewById(R.id.tile3);
+        tile4 = findViewById(R.id.tile4);
+        tile5 = findViewById(R.id.tile5);
+        tile6 = findViewById(R.id.tile6);
+        tile7 = findViewById(R.id.tile7);
+        tile8 = findViewById(R.id.tile8);
+        tile9 = findViewById(R.id.tile9);
 
 
         tile1.setOnClickListener(this);
@@ -55,6 +56,13 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
 
 
     }
+
+    //start logic
+
+
+
+
+    //end logic
 
 
     //main function of the buttons
