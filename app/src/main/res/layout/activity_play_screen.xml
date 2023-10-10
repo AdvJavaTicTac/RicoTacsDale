@@ -5,21 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#ACC7FD"
     tools:context=".PlayScreen">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Play Screen" />
 
 
     <TableLayout
         android:id="@+id/playBoard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#ACC7FD"
-        android:layout_margin="30dp">
+        android:background="#555F82"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
 
 
         <TableRow
@@ -32,6 +28,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty"/>
 
             <Button
@@ -39,6 +36,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty"/>
 
 
@@ -47,6 +45,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty"/>
 
 
@@ -62,6 +61,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty" />
 
             <Button
@@ -70,6 +70,7 @@
                 android:layout_height="100dp"
                 android:onClick="changeSymbol"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty" />
 
             <Button
@@ -77,6 +78,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty"/>
         </TableRow>
 
@@ -90,21 +92,42 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty" />
             <Button
                 android:id="@+id/tile8"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty" />
             <Button
                 android:id="@+id/tile9"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:padding="5dp"
+                android:backgroundTint="#555F82"
                 android:text="Empty" />
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/winnerTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nobody Is The Winner"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/turnTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It is X's Turn"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
