@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
     {
         startActivity(new Intent(MainActivity.this, Instructions.class));
     }
+
+    public void toPlay(View v)
+    {
+        startActivity(new Intent(MainActivity.this, PlayScreen.class));
+    }
 }
