@@ -23,9 +23,10 @@
         android:id="@+id/PlayButton"
         android:layout_width="370dp"
         android:layout_height="150dp"
+        android:layout_gravity="center"
         android:layout_marginTop="150px"
         android:backgroundTint="#555F82"
-        android:layout_gravity="center"
+        android:onClick="toPlay"
         android:text="Play"
         android:textSize="30dp" />
 
