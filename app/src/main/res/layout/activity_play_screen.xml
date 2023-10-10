@@ -130,4 +130,14 @@
         android:layout_marginTop="40dp"
         android:layout_gravity="center"/>
 
+    <Button
+        android:id="@+id/playHomeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#555F82"
+        android:onClick="toHomePage"
+        android:text="Main Screen"
+        android:textSize="30dp" />
+
 </LinearLayout>

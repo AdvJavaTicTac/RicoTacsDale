@@ -3,6 +3,7 @@ package com.example.ricotacsdale;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,7 +18,7 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
 
     Button tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, tile9;
     TextView winnerTV, turnTV;
-    String[] t= new String[10];
+    String[] t = new String[10];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -195,5 +196,10 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
         }
     }
     //end main function of the buttons
+
+    public void toHomePage(View v)
+    {
+        startActivity(new Intent(PlayScreen.this, MainActivity.class));
+    }
 
 }//end playScreen class
