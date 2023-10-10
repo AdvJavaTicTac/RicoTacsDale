@@ -16,7 +16,7 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
     //Start off with X outside onCreate because I *THINK* it will mess something up
 
     Button tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, tile9;
-    TextView winnerTV;
+    TextView winnerTV, turnTV;
     String[] t= new String[10];
 
     @Override
@@ -53,6 +53,8 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
         tile9.setOnClickListener(this);
 
         winnerTV = findViewById(R.id.winnerTV);
+        turnTV = findViewById(R.id.turnTV);
+
 
         /* Brainstorm of how to change image of tiles
             Need two different conditions, Dale's turn, and Rico's turn
@@ -177,6 +179,7 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
         if(outBtn.getText().equals("Empty"))
         {
             changeSymbol(v);
+
             fillArray();
             diag1();
             diag2();
@@ -188,6 +191,7 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
             }
             else
                 turn = "X";
+            turnTV.setText("It is " + turn + "'s Turn");
         }
     }
     //end main function of the buttons
