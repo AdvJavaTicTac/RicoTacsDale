@@ -8,8 +8,19 @@ import android.view.View;
 import android.widget.Button;
 public class PlayScreen extends AppCompatActivity implements View.OnClickListener {
 
+
     String turn = "X";
     //Start off with X outside onCreate because I *THINK* it will mess something up
+
+    Button tile1 = findViewById(R.id.tile1);
+    Button tile2 = findViewById(R.id.tile2);
+    Button tile3 = findViewById(R.id.tile3);
+    Button tile4 = findViewById(R.id.tile4);
+    Button tile5 = findViewById(R.id.tile5);
+    Button tile6 = findViewById(R.id.tile6);
+    Button tile7 = findViewById(R.id.tile7);
+    Button tile8 = findViewById(R.id.tile8);
+    Button tile9 = findViewById(R.id.tile9);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,15 +34,6 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
                 7   8   9
          */
 
-        Button tile1 = findViewById(R.id.tile1);
-        Button tile2 = findViewById(R.id.tile2);
-        Button tile3 = findViewById(R.id.tile3);
-        Button tile4 = findViewById(R.id.tile4);
-        Button tile5 = findViewById(R.id.tile5);
-        Button tile6 = findViewById(R.id.tile6);
-        Button tile7 = findViewById(R.id.tile7);
-        Button tile8 = findViewById(R.id.tile8);
-        Button tile9 = findViewById(R.id.tile9);
 
         tile1.setOnClickListener(this);
         tile2.setOnClickListener(this);
@@ -54,6 +56,8 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
 
     }
 
+
+    //main function of the buttons
     public void changeSymbol(View v)
     {
         Button outBtn = (Button)findViewById(v.getId());
@@ -77,4 +81,6 @@ public class PlayScreen extends AppCompatActivity implements View.OnClickListene
             changeSymbol(v);
         }
     }
-}
+    //end main function of the buttons
+
+}//end playScreen class
